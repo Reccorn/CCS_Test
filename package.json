@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.1",
+    "parcel": "^2.10.1"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "dependencies": {
+    "resize-observer-polyfill": "^1.5.1",
+    "simplebar": "^6.2.5"
+  }
+}

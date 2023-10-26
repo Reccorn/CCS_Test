@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoremIpsum</title>
+    <link rel="stylesheet" href="./styles/styles.scss">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <a href="/">
+                        LoremIpsum.<span>Net</span>
+                    </a>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item header__item--active">
+                            <a href="#">
+                                Бизнес
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#">
+                                О нас
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#">
+                                Цены
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#">
+                                Оформить заказ
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="header__btn">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        <span>Lorem ipsum</span> dolor sit <br>
+                        amet consectetur <span>adipiscing</span>
+                    </h1>
+                    <h3 class="hero__subtitle">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus!
+                    </h3>
+                    <ul class="hero__list">
+                        <div class="hero__item">
+                            Totam rem aperiam eaque ipsa
+                        </div>
+                        <div class="hero__item">
+                            Sit voluptatem accusantium doloremque laudantium
+                        </div>
+                        <div class="hero__item">
+                            Sed ut perspiciatis, unde omnis iste natus error
+                        </div>
+                    </ul>
+                    <div class="hero__actions">
+                        <button class="btn btn--blue">
+                            заказать
+                        </button>
+                        <a href="#" class="btn">
+                            подробнее
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="order">
+            <div class="container">
+                <h2 class="order__title">
+                    Оформление <span>Заказа</span>
+                </h2>
+                <p class="order__descr">
+                    Перед заполнением формы ознакомьтесь с&nbsp;нашей схемой работы!
+                </p>
+                <ul class="order__list">
+                    <li class="order__item" data-text="Lorem ipsum dolor
+                    sit amet">
+                        <div class="order__circle">
+                            <svg width="55" height="55" viewbox="0 0 55 55">
+                                <use xlink:href="./assets/icons/sprite.svg#search">
+                                </use>
+                            </svg>
+                        </div>
+                    </li>
+                    <li class="order__item" data-text="Сonsecteturadipiscing elit">
+                        <div class="order__circle">
+                            <svg width="55" height="55" viewbox="0 0 55 55">
+                                <use xlink:href="./assets/icons/sprite.svg#percent">
+                                </use>
+                            </svg>
+                        </div>
+                    </li>
+                    <li class="order__item" data-text="Sed do eiusmod tempor">
+                        <div class="order__circle">
+                            <svg width="55" height="55" viewbox="0 0 55 55">
+                                <use xlink:href="./assets/icons/sprite.svg#sheet">
+                                </use>
+                            </svg>
+                        </div>
+                    </li>
+                    <li class="order__item" data-text="Esse cillum dolore
+                    eu fugiat">
+                        <div class="order__circle">
+                            <svg width="55" height="55" viewbox="0 0 55 55">
+                                <use xlink:href="./assets/icons/sprite.svg#mail">
+                                </use>
+                            </svg>
+                        </div>
+                    </li>
+                    <li class="order__item" data-text="Excepteur sint occaecat cupidatat non proident">
+                        <div class="order__circle">
+                            <svg width="55" height="55" viewbox="0 0 55 55">
+                                <use xlink:href="./assets/icons/sprite.svg#money">
+                                </use>
+                            </svg>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form" action="#" method="post">
+                    <div class="form__item form__item--third select__block">
+                        <select class="select" name="type" id="type">
+                            <option default hidden>Выберите тип системы</option>
+                            <option value="1">Lorem ipsum1</option>
+                            <option value="2">Lorem ipsum2</option>
+                            <option value="3">Lorem ipsum3</option>
+                            <option value="4">Lorem ipsum4</option>
+                            <option value="5">Lorem ipsum5</option>
+                            <option value="6">Lorem ipsum6</option>
+                            <option value="7">Lorem ipsum7</option>
+                            <option value="8">Lorem ipsum8</option>
+                        </select>
+                    </div>
+                    <div class="form__item form__item--third">
+                        <input type="text" name="email" id="email" placeholder="Ваш e-mail">
+                    </div>
+                    <div class="form__item form__item--third">
+                        <input type="text" name="name" id="name" placeholder="Ваше имя">
+                    </div>
+                    <div class="form__item form__item--double">
+                        <label for="range">
+                            <p>Sed ut perspiciatis, unde omnis iste natus</p>
+                            <span class="form__value">
+                                0 %
+                            </span>
+                        </label>
+                        <input type="range" min="0" value="50" max="100" name="range" id="range">
+                    </div>
+                    <div class="form__item form__item--third">
+                        <div class="form__file-upload">
+                            <svg width="18" height="20" viewbox="0 0 18 20">
+                                <use xlink:href="./assets/icons/sprite.svg#file"></use>
+                            </svg>
+                            <span>
+                                Прикрепить файл
+                            </span>
+                            <input type="file" name="file" id="file">
+                        </div>
+                    </div>
+                    <div class="form__item form__item--third">
+                        <button class="btn btn--blue" type="submit">
+                            Отправить
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p class="footer__copyright">
+                    © 2018 «LoremIpsum.net» Все права защищены.
+                </p>
+                <div class="footer__divider"></div>
+                <ul class="footer__payment">
+                    <li>
+                        <svg width="20" height="20" viewbox="0 0 20 20">
+                            <use xlink:href="./assets/icons/sprite.svg#qiwi"></use>
+                        </svg>
+                        Qiwi wallet
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewbox="0 0 20 20">
+                            <use xlink:href="./assets/icons/sprite.svg#yandex"></use>
+                        </svg>
+                        Yandex Money
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewbox="0 0 20 20">
+                            <use xlink:href="./assets/icons/sprite.svg#webmoney"></use>
+                        </svg>
+                        Web Money
+                    </li>
+                </ul>
+                <div class="footer__divider"></div>
+                <ul class="footer__links">
+                    <li>
+                        <a href="mailto:info@ipsum228.com" target="_blank">
+                            <svg width="20" height="20" viewbox="0 0 20 20">
+                                <use xlink:href="./assets/icons/sprite.svg#mail-blue"></use>
+                            </svg>
+                            info@ipsum228.com
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <svg width="20" height="20" viewbox="0 0 20 20">
+                                <use xlink:href="./assets/icons/sprite.svg#vk"></use>
+                            </svg>
+                            Мы вконтакте
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script type="module" src="./js/main.js"></script>
+
+</html>
