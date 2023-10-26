@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "@parcel/transformer-sass": "^2.10.1",
+    "gh-pages": "^6.0.0",
     "parcel": "^2.10.1"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
@@ -10,6 +11,6 @@
   },
   "scripts": {
     "predeploy": "parcel build src/index.html",
-    "deploy" : "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   }
 }
