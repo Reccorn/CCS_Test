@@ -10,8 +10,13 @@
     "simplebar": "^6.2.5"
   },
   "scripts": {
-    "build": "parcel build src/index.html --public-url /parcel-deploy-tutorial/",
+    "build": "parcel build src/index.html --public-url /CCS_Test/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
+  },
+  "homepage": "https://reccorn.github.io/CCS_Test",
+  "repository": {
+    "type": "git",
+    "url": "git+https://reccorn.github.io/CCS_Test.git"
   }
 }
